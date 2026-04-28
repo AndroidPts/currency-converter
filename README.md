@@ -24,15 +24,8 @@
 - 🛡️ Обработка ошибок сети и неверного ввода пользователя
 
 ## Структура проекта:
-currency-converter/
-├── src/
-│   ├── module_a_api.py        # Модуль A: запрос курсов к API
-│   ├── module_b_cache.py      # Модуль B: кэширование данных
-│   └── module_c_history.py    # Модуль C: история запросов
-├── main.py                    # Главное меню и интеграция модулей
-├── currency_cache.json        # Файл кэша (создаётся автоматически)
-├── conversion_history.json    # Файл истории (создаётся автоматически)
-└── README.md
+
+<img width="635" height="227" alt="image" src="https://github.com/user-attachments/assets/d7a20402-667b-49e1-8513-fb751a7855f5" />
 
 ## Ветки
 | Ветка | Автор | Назначение |
