@@ -6,6 +6,8 @@
 
 Тимофей - Otshelnik16
 
+[![Python CI](https://github.com/AndroidPts/currency-converter/actions/workflows/ci.yml/badge.svg)](https://github.com/AndroidPts/currency-converter/actions/workflows/ci.yml)
+
 ## Конвертер валют с кэшированием
 
 Консольное приложение для конвертации валют с сохранением курсов в кэш и ведением истории запросов.  
@@ -41,6 +43,16 @@
 | `feature/zakhar-moduleA-currency-api` | Захар | Модуль A |
 | `feature/timofey-moduleB-cache` | Тимофей | Модуль B |
 | `feature/sofiya-moduleC-history` | София | Модуль C |
+
+
+## Автоматическая проверка кода (CI/CD)
+
+При каждом push и pull request в ветки `main` и `develop` автоматически запускаются:
+- Проверка форматирования (`black --check .`)
+- Проверка стиля кода (`flake8 src/`)
+- Запуск юнит-тестов (`pytest tests/ -v`)
+
+Статус проверок отображается в badge вверху страницы и на вкладке Actions.
 
 ---
 
